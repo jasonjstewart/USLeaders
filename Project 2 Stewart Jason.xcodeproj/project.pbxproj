@@ -9,12 +9,64 @@
 /* Begin PBXBuildFile section */
 		3FDDF0C02357AD6A0078D34E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0BF2357AD6A0078D34E /* AppDelegate.swift */; };
 		3FDDF0C22357AD6A0078D34E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0C12357AD6A0078D34E /* SceneDelegate.swift */; };
-		3FDDF0C42357AD6A0078D34E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0C32357AD6A0078D34E /* ContentView.swift */; };
 		3FDDF0C62357AD790078D34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF0C52357AD790078D34E /* Assets.xcassets */; };
 		3FDDF0C92357AD790078D34E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF0C82357AD790078D34E /* Preview Assets.xcassets */; };
 		3FDDF0CC2357AD790078D34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF0CA2357AD790078D34E /* LaunchScreen.storyboard */; };
 		3FDDF0D72357AD790078D34E /* Project_2_Stewart_JasonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0D62357AD790078D34E /* Project_2_Stewart_JasonTests.swift */; };
 		3FDDF0E22357AD790078D34E /* Project_2_Stewart_JasonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0E12357AD790078D34E /* Project_2_Stewart_JasonUITests.swift */; };
+		3FDDF0F42357CFBD0078D34E /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0F32357CFBD0078D34E /* President.swift */; };
+		3FDDF0F62357CFE50078D34E /* PresidentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0F52357CFE50078D34E /* PresidentRow.swift */; };
+		3FDDF0F82357CFF00078D34E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0F72357CFF00078D34E /* Data.swift */; };
+		3FDDF0FA2357D09A0078D34E /* presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF0F92357D09A0078D34E /* presidents.json */; };
+		3FDDF0FC2357DAC50078D34E /* 1-washington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF0FB2357DAC50078D34E /* 1-washington.jpg */; };
+		3FDDF15C2357E8470078D34E /* PresidentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF15B2357E8470078D34E /* PresidentList.swift */; };
+		3FDDF1602357E9E90078D34E /* PresidentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF15F2357E9E90078D34E /* PresidentDetail.swift */; };
+		3FDDF1C12358186B0078D34E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C02358186B0078D34E /* CircleImage.swift */; };
+		3FDDF1EF2358224A0078D34E /* US_President_L_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C2235822480078D34E /* US_President_L_11.jpg */; };
+		3FDDF1F02358224A0078D34E /* US_President_L_26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C3235822480078D34E /* US_President_L_26.jpg */; };
+		3FDDF1F12358224A0078D34E /* US_President_L_18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C4235822480078D34E /* US_President_L_18.jpg */; };
+		3FDDF1F22358224A0078D34E /* US_President_L_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C5235822480078D34E /* US_President_L_17.jpg */; };
+		3FDDF1F32358224A0078D34E /* US_President_L_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C6235822480078D34E /* US_President_L_9.jpg */; };
+		3FDDF1F42358224A0078D34E /* US_President_L_30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C7235822480078D34E /* US_President_L_30.jpg */; };
+		3FDDF1F52358224A0078D34E /* US_President_L_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C8235822480078D34E /* US_President_L_12.jpg */; };
+		3FDDF1F62358224A0078D34E /* US_President_L_33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C9235822480078D34E /* US_President_L_33.jpg */; };
+		3FDDF1F72358224A0078D34E /* US_President_L_29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1CA235822480078D34E /* US_President_L_29.jpg */; };
+		3FDDF1F82358224A0078D34E /* US_President_L_35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1CB235822480078D34E /* US_President_L_35.jpg */; };
+		3FDDF1F92358224A0078D34E /* US_President_L_34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1CC235822480078D34E /* US_President_L_34.jpg */; };
+		3FDDF1FA2358224A0078D34E /* US_President_L_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1CD235822480078D34E /* US_President_L_10.jpg */; };
+		3FDDF1FB2358224A0078D34E /* US_President_L_42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1CE235822480078D34E /* US_President_L_42.jpg */; };
+		3FDDF1FC2358224A0078D34E /* US_President_L_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1CF235822480078D34E /* US_President_L_15.jpg */; };
+		3FDDF1FD2358224A0078D34E /* US_President_L_44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D0235822480078D34E /* US_President_L_44.jpg */; };
+		3FDDF1FE2358224A0078D34E /* US_President_L_19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D1235822480078D34E /* US_President_L_19.jpg */; };
+		3FDDF1FF2358224A0078D34E /* US_President_L_32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D2235822480078D34E /* US_President_L_32.jpg */; };
+		3FDDF2002358224A0078D34E /* US_President_L_27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D3235822480078D34E /* US_President_L_27.jpg */; };
+		3FDDF2012358224A0078D34E /* US_President_L_40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D4235822480078D34E /* US_President_L_40.jpg */; };
+		3FDDF2022358224A0078D34E /* US_President_L_23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D5235822490078D34E /* US_President_L_23.jpg */; };
+		3FDDF2032358224A0078D34E /* US_President_L_28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D6235822490078D34E /* US_President_L_28.jpg */; };
+		3FDDF2042358224A0078D34E /* US_President_L_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D7235822490078D34E /* US_President_L_7.jpg */; };
+		3FDDF2052358224A0078D34E /* US_President_L_25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D8235822490078D34E /* US_President_L_25.jpg */; };
+		3FDDF2062358224A0078D34E /* US_President_L_20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1D9235822490078D34E /* US_President_L_20.jpg */; };
+		3FDDF2072358224A0078D34E /* US_President_L_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1DA235822490078D34E /* US_President_L_21.jpg */; };
+		3FDDF2082358224A0078D34E /* US_President_L_38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1DB235822490078D34E /* US_President_L_38.jpg */; };
+		3FDDF2092358224A0078D34E /* US_President_L_37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1DC235822490078D34E /* US_President_L_37.jpg */; };
+		3FDDF20A2358224A0078D34E /* US_President_L_43.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1DD235822490078D34E /* US_President_L_43.jpeg */; };
+		3FDDF20B2358224A0078D34E /* US_President_L_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1DE235822490078D34E /* US_President_L_4.jpg */; };
+		3FDDF20C2358224A0078D34E /* US_President_L_22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1DF235822490078D34E /* US_President_L_22.jpg */; };
+		3FDDF20D2358224A0078D34E /* US_President_L_31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E0235822490078D34E /* US_President_L_31.jpg */; };
+		3FDDF20E2358224A0078D34E /* US_President_L_36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E1235822490078D34E /* US_President_L_36.jpg */; };
+		3FDDF20F2358224A0078D34E /* US_President_L_24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E2235822490078D34E /* US_President_L_24.jpg */; };
+		3FDDF2102358224A0078D34E /* US_President_L_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E3235822490078D34E /* US_President_L_14.jpg */; };
+		3FDDF2112358224A0078D34E /* US_President_L_45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E4235822490078D34E /* US_President_L_45.jpg */; };
+		3FDDF2122358224A0078D34E /* US_President_L_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E5235822490078D34E /* US_President_L_2.jpg */; };
+		3FDDF2132358224A0078D34E /* US_President_L_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E6235822490078D34E /* US_President_L_16.jpg */; };
+		3FDDF2142358224A0078D34E /* US_President_L_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E72358224A0078D34E /* US_President_L_13.jpg */; };
+		3FDDF2152358224A0078D34E /* US_President_L_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E82358224A0078D34E /* US_President_L_3.jpg */; };
+		3FDDF2162358224A0078D34E /* US_President_L_39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1E92358224A0078D34E /* US_President_L_39.jpg */; };
+		3FDDF2172358224A0078D34E /* US_President_L_41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1EA2358224A0078D34E /* US_President_L_41.jpg */; };
+		3FDDF2182358224A0078D34E /* US_President_L_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1EB2358224A0078D34E /* US_President_L_6.jpg */; };
+		3FDDF2192358224A0078D34E /* US_President_L_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1EC2358224A0078D34E /* US_President_L_8.jpg */; };
+		3FDDF21A2358224A0078D34E /* US_President_L_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1ED2358224A0078D34E /* US_President_L_5.jpg */; };
+		3FDDF21B2358224A0078D34E /* US_President_L_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF1EE2358224A0078D34E /* US_President_L_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +90,6 @@
 		3FDDF0BC2357AD6A0078D34E /* Project 2 Stewart Jason.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 2 Stewart Jason.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDDF0BF2357AD6A0078D34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDDF0C12357AD6A0078D34E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FDDF0C32357AD6A0078D34E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FDDF0C52357AD790078D34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDDF0C82357AD790078D34E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FDDF0CB2357AD790078D34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +100,59 @@
 		3FDDF0DD2357AD790078D34E /* Project 2 Stewart JasonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 2 Stewart JasonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDDF0E12357AD790078D34E /* Project_2_Stewart_JasonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_2_Stewart_JasonUITests.swift; sourceTree = "<group>"; };
 		3FDDF0E32357AD790078D34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDDF0F32357CFBD0078D34E /* President.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = President.swift; sourceTree = "<group>"; };
+		3FDDF0F52357CFE50078D34E /* PresidentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentRow.swift; sourceTree = "<group>"; };
+		3FDDF0F72357CFF00078D34E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3FDDF0F92357D09A0078D34E /* presidents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = presidents.json; path = ../../../../../Downloads/presidents.json; sourceTree = "<group>"; };
+		3FDDF0FB2357DAC50078D34E /* 1-washington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1-washington.jpg"; path = "../../../../../Downloads/1-washington.jpg"; sourceTree = "<group>"; };
+		3FDDF15B2357E8470078D34E /* PresidentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentList.swift; sourceTree = "<group>"; };
+		3FDDF15F2357E9E90078D34E /* PresidentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentDetail.swift; sourceTree = "<group>"; };
+		3FDDF1C02358186B0078D34E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3FDDF1C2235822480078D34E /* US_President_L_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_11.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_11.jpg"; sourceTree = "<group>"; };
+		3FDDF1C3235822480078D34E /* US_President_L_26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_26.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_26.jpg"; sourceTree = "<group>"; };
+		3FDDF1C4235822480078D34E /* US_President_L_18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_18.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_18.jpg"; sourceTree = "<group>"; };
+		3FDDF1C5235822480078D34E /* US_President_L_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_17.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_17.jpg"; sourceTree = "<group>"; };
+		3FDDF1C6235822480078D34E /* US_President_L_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_9.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_9.jpg"; sourceTree = "<group>"; };
+		3FDDF1C7235822480078D34E /* US_President_L_30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_30.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_30.jpg"; sourceTree = "<group>"; };
+		3FDDF1C8235822480078D34E /* US_President_L_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_12.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_12.jpg"; sourceTree = "<group>"; };
+		3FDDF1C9235822480078D34E /* US_President_L_33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_33.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_33.jpg"; sourceTree = "<group>"; };
+		3FDDF1CA235822480078D34E /* US_President_L_29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_29.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_29.jpg"; sourceTree = "<group>"; };
+		3FDDF1CB235822480078D34E /* US_President_L_35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_35.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_35.jpg"; sourceTree = "<group>"; };
+		3FDDF1CC235822480078D34E /* US_President_L_34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_34.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_34.jpg"; sourceTree = "<group>"; };
+		3FDDF1CD235822480078D34E /* US_President_L_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_10.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_10.jpg"; sourceTree = "<group>"; };
+		3FDDF1CE235822480078D34E /* US_President_L_42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_42.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_42.jpg"; sourceTree = "<group>"; };
+		3FDDF1CF235822480078D34E /* US_President_L_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_15.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_15.jpg"; sourceTree = "<group>"; };
+		3FDDF1D0235822480078D34E /* US_President_L_44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_44.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_44.jpg"; sourceTree = "<group>"; };
+		3FDDF1D1235822480078D34E /* US_President_L_19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_19.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_19.jpg"; sourceTree = "<group>"; };
+		3FDDF1D2235822480078D34E /* US_President_L_32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_32.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_32.jpg"; sourceTree = "<group>"; };
+		3FDDF1D3235822480078D34E /* US_President_L_27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_27.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_27.jpg"; sourceTree = "<group>"; };
+		3FDDF1D4235822480078D34E /* US_President_L_40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_40.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_40.jpg"; sourceTree = "<group>"; };
+		3FDDF1D5235822490078D34E /* US_President_L_23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_23.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_23.jpg"; sourceTree = "<group>"; };
+		3FDDF1D6235822490078D34E /* US_President_L_28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_28.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_28.jpg"; sourceTree = "<group>"; };
+		3FDDF1D7235822490078D34E /* US_President_L_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_7.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_7.jpg"; sourceTree = "<group>"; };
+		3FDDF1D8235822490078D34E /* US_President_L_25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_25.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_25.jpg"; sourceTree = "<group>"; };
+		3FDDF1D9235822490078D34E /* US_President_L_20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_20.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_20.jpg"; sourceTree = "<group>"; };
+		3FDDF1DA235822490078D34E /* US_President_L_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_21.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_21.jpg"; sourceTree = "<group>"; };
+		3FDDF1DB235822490078D34E /* US_President_L_38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_38.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_38.jpg"; sourceTree = "<group>"; };
+		3FDDF1DC235822490078D34E /* US_President_L_37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_37.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_37.jpg"; sourceTree = "<group>"; };
+		3FDDF1DD235822490078D34E /* US_President_L_43.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_43.jpeg; path = "../../../../../Downloads/large president pictures/US_President_L_43.jpeg"; sourceTree = "<group>"; };
+		3FDDF1DE235822490078D34E /* US_President_L_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_4.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_4.jpg"; sourceTree = "<group>"; };
+		3FDDF1DF235822490078D34E /* US_President_L_22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_22.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_22.jpg"; sourceTree = "<group>"; };
+		3FDDF1E0235822490078D34E /* US_President_L_31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_31.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_31.jpg"; sourceTree = "<group>"; };
+		3FDDF1E1235822490078D34E /* US_President_L_36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_36.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_36.jpg"; sourceTree = "<group>"; };
+		3FDDF1E2235822490078D34E /* US_President_L_24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_24.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_24.jpg"; sourceTree = "<group>"; };
+		3FDDF1E3235822490078D34E /* US_President_L_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_14.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_14.jpg"; sourceTree = "<group>"; };
+		3FDDF1E4235822490078D34E /* US_President_L_45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_45.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_45.jpg"; sourceTree = "<group>"; };
+		3FDDF1E5235822490078D34E /* US_President_L_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_2.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_2.jpg"; sourceTree = "<group>"; };
+		3FDDF1E6235822490078D34E /* US_President_L_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_16.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_16.jpg"; sourceTree = "<group>"; };
+		3FDDF1E72358224A0078D34E /* US_President_L_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_13.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_13.jpg"; sourceTree = "<group>"; };
+		3FDDF1E82358224A0078D34E /* US_President_L_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_3.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_3.jpg"; sourceTree = "<group>"; };
+		3FDDF1E92358224A0078D34E /* US_President_L_39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_39.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_39.jpg"; sourceTree = "<group>"; };
+		3FDDF1EA2358224A0078D34E /* US_President_L_41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_41.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_41.jpg"; sourceTree = "<group>"; };
+		3FDDF1EB2358224A0078D34E /* US_President_L_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_6.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_6.jpg"; sourceTree = "<group>"; };
+		3FDDF1EC2358224A0078D34E /* US_President_L_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_8.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_8.jpg"; sourceTree = "<group>"; };
+		3FDDF1ED2358224A0078D34E /* US_President_L_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_5.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_5.jpg"; sourceTree = "<group>"; };
+		3FDDF1EE2358224A0078D34E /* US_President_L_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_1.jpg; path = "../../../../../Downloads/large president pictures/US_President_L_1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +203,12 @@
 		3FDDF0BE2357AD6A0078D34E /* Project 2 Stewart Jason */ = {
 			isa = PBXGroup;
 			children = (
+				3FDDF0F22357CFA60078D34E /* Supporting Files */,
+				3FDDF0F12357CF810078D34E /* View */,
+				3FDDF0F02357CF7A0078D34E /* Controller */,
+				3FDDF0EF2357CF430078D34E /* Model */,
 				3FDDF0BF2357AD6A0078D34E /* AppDelegate.swift */,
 				3FDDF0C12357AD6A0078D34E /* SceneDelegate.swift */,
-				3FDDF0C32357AD6A0078D34E /* ContentView.swift */,
 				3FDDF0C52357AD790078D34E /* Assets.xcassets */,
 				3FDDF0CA2357AD790078D34E /* LaunchScreen.storyboard */,
 				3FDDF0CD2357AD790078D34E /* Info.plist */,
@@ -134,6 +241,87 @@
 				3FDDF0E32357AD790078D34E /* Info.plist */,
 			);
 			path = "Project 2 Stewart JasonUITests";
+			sourceTree = "<group>";
+		};
+		3FDDF0EF2357CF430078D34E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDF0F32357CFBD0078D34E /* President.swift */,
+				3FDDF0F72357CFF00078D34E /* Data.swift */,
+				3FDDF1C02358186B0078D34E /* CircleImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FDDF0F02357CF7A0078D34E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FDDF0F12357CF810078D34E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDF0F52357CFE50078D34E /* PresidentRow.swift */,
+				3FDDF15B2357E8470078D34E /* PresidentList.swift */,
+				3FDDF15F2357E9E90078D34E /* PresidentDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FDDF0F22357CFA60078D34E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDF1EE2358224A0078D34E /* US_President_L_1.jpg */,
+				3FDDF1E5235822490078D34E /* US_President_L_2.jpg */,
+				3FDDF1E82358224A0078D34E /* US_President_L_3.jpg */,
+				3FDDF1DE235822490078D34E /* US_President_L_4.jpg */,
+				3FDDF1ED2358224A0078D34E /* US_President_L_5.jpg */,
+				3FDDF1EB2358224A0078D34E /* US_President_L_6.jpg */,
+				3FDDF1D7235822490078D34E /* US_President_L_7.jpg */,
+				3FDDF1EC2358224A0078D34E /* US_President_L_8.jpg */,
+				3FDDF1C6235822480078D34E /* US_President_L_9.jpg */,
+				3FDDF1CD235822480078D34E /* US_President_L_10.jpg */,
+				3FDDF1C2235822480078D34E /* US_President_L_11.jpg */,
+				3FDDF1C8235822480078D34E /* US_President_L_12.jpg */,
+				3FDDF1E72358224A0078D34E /* US_President_L_13.jpg */,
+				3FDDF1E3235822490078D34E /* US_President_L_14.jpg */,
+				3FDDF1CF235822480078D34E /* US_President_L_15.jpg */,
+				3FDDF1E6235822490078D34E /* US_President_L_16.jpg */,
+				3FDDF1C5235822480078D34E /* US_President_L_17.jpg */,
+				3FDDF1C4235822480078D34E /* US_President_L_18.jpg */,
+				3FDDF1D1235822480078D34E /* US_President_L_19.jpg */,
+				3FDDF1D9235822490078D34E /* US_President_L_20.jpg */,
+				3FDDF1DA235822490078D34E /* US_President_L_21.jpg */,
+				3FDDF1DF235822490078D34E /* US_President_L_22.jpg */,
+				3FDDF1D5235822490078D34E /* US_President_L_23.jpg */,
+				3FDDF1E2235822490078D34E /* US_President_L_24.jpg */,
+				3FDDF1D8235822490078D34E /* US_President_L_25.jpg */,
+				3FDDF1C3235822480078D34E /* US_President_L_26.jpg */,
+				3FDDF1D3235822480078D34E /* US_President_L_27.jpg */,
+				3FDDF1D6235822490078D34E /* US_President_L_28.jpg */,
+				3FDDF1CA235822480078D34E /* US_President_L_29.jpg */,
+				3FDDF1C7235822480078D34E /* US_President_L_30.jpg */,
+				3FDDF1E0235822490078D34E /* US_President_L_31.jpg */,
+				3FDDF1D2235822480078D34E /* US_President_L_32.jpg */,
+				3FDDF1C9235822480078D34E /* US_President_L_33.jpg */,
+				3FDDF1CC235822480078D34E /* US_President_L_34.jpg */,
+				3FDDF1CB235822480078D34E /* US_President_L_35.jpg */,
+				3FDDF1E1235822490078D34E /* US_President_L_36.jpg */,
+				3FDDF1DC235822490078D34E /* US_President_L_37.jpg */,
+				3FDDF1DB235822490078D34E /* US_President_L_38.jpg */,
+				3FDDF1E92358224A0078D34E /* US_President_L_39.jpg */,
+				3FDDF1D4235822480078D34E /* US_President_L_40.jpg */,
+				3FDDF1EA2358224A0078D34E /* US_President_L_41.jpg */,
+				3FDDF1CE235822480078D34E /* US_President_L_42.jpg */,
+				3FDDF1DD235822490078D34E /* US_President_L_43.jpeg */,
+				3FDDF1D0235822480078D34E /* US_President_L_44.jpg */,
+				3FDDF1E4235822490078D34E /* US_President_L_45.jpg */,
+				3FDDF0F92357D09A0078D34E /* presidents.json */,
+				3FDDF0FB2357DAC50078D34E /* 1-washington.jpg */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +428,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDDF2062358224A0078D34E /* US_President_L_20.jpg in Resources */,
+				3FDDF1F42358224A0078D34E /* US_President_L_30.jpg in Resources */,
+				3FDDF0FC2357DAC50078D34E /* 1-washington.jpg in Resources */,
+				3FDDF0FA2357D09A0078D34E /* presidents.json in Resources */,
+				3FDDF2112358224A0078D34E /* US_President_L_45.jpg in Resources */,
+				3FDDF21B2358224A0078D34E /* US_President_L_1.jpg in Resources */,
+				3FDDF20B2358224A0078D34E /* US_President_L_4.jpg in Resources */,
+				3FDDF2162358224A0078D34E /* US_President_L_39.jpg in Resources */,
 				3FDDF0CC2357AD790078D34E /* LaunchScreen.storyboard in Resources */,
+				3FDDF2042358224A0078D34E /* US_President_L_7.jpg in Resources */,
+				3FDDF2142358224A0078D34E /* US_President_L_13.jpg in Resources */,
+				3FDDF2192358224A0078D34E /* US_President_L_8.jpg in Resources */,
+				3FDDF1EF2358224A0078D34E /* US_President_L_11.jpg in Resources */,
+				3FDDF20A2358224A0078D34E /* US_President_L_43.jpeg in Resources */,
+				3FDDF2182358224A0078D34E /* US_President_L_6.jpg in Resources */,
+				3FDDF1FC2358224A0078D34E /* US_President_L_15.jpg in Resources */,
+				3FDDF20C2358224A0078D34E /* US_President_L_22.jpg in Resources */,
+				3FDDF2002358224A0078D34E /* US_President_L_27.jpg in Resources */,
+				3FDDF2082358224A0078D34E /* US_President_L_38.jpg in Resources */,
+				3FDDF1F12358224A0078D34E /* US_President_L_18.jpg in Resources */,
+				3FDDF1FA2358224A0078D34E /* US_President_L_10.jpg in Resources */,
+				3FDDF20D2358224A0078D34E /* US_President_L_31.jpg in Resources */,
+				3FDDF1F52358224A0078D34E /* US_President_L_12.jpg in Resources */,
+				3FDDF2132358224A0078D34E /* US_President_L_16.jpg in Resources */,
+				3FDDF2092358224A0078D34E /* US_President_L_37.jpg in Resources */,
+				3FDDF2072358224A0078D34E /* US_President_L_21.jpg in Resources */,
+				3FDDF2122358224A0078D34E /* US_President_L_2.jpg in Resources */,
+				3FDDF1FE2358224A0078D34E /* US_President_L_19.jpg in Resources */,
+				3FDDF1F32358224A0078D34E /* US_President_L_9.jpg in Resources */,
+				3FDDF2102358224A0078D34E /* US_President_L_14.jpg in Resources */,
+				3FDDF21A2358224A0078D34E /* US_President_L_5.jpg in Resources */,
 				3FDDF0C92357AD790078D34E /* Preview Assets.xcassets in Resources */,
+				3FDDF1FD2358224A0078D34E /* US_President_L_44.jpg in Resources */,
+				3FDDF1F82358224A0078D34E /* US_President_L_35.jpg in Resources */,
+				3FDDF2012358224A0078D34E /* US_President_L_40.jpg in Resources */,
+				3FDDF20E2358224A0078D34E /* US_President_L_36.jpg in Resources */,
+				3FDDF2172358224A0078D34E /* US_President_L_41.jpg in Resources */,
+				3FDDF1F92358224A0078D34E /* US_President_L_34.jpg in Resources */,
+				3FDDF20F2358224A0078D34E /* US_President_L_24.jpg in Resources */,
+				3FDDF1F22358224A0078D34E /* US_President_L_17.jpg in Resources */,
+				3FDDF2022358224A0078D34E /* US_President_L_23.jpg in Resources */,
+				3FDDF2032358224A0078D34E /* US_President_L_28.jpg in Resources */,
+				3FDDF1F72358224A0078D34E /* US_President_L_29.jpg in Resources */,
+				3FDDF2152358224A0078D34E /* US_President_L_3.jpg in Resources */,
+				3FDDF2052358224A0078D34E /* US_President_L_25.jpg in Resources */,
+				3FDDF1F02358224A0078D34E /* US_President_L_26.jpg in Resources */,
+				3FDDF1FF2358224A0078D34E /* US_President_L_32.jpg in Resources */,
+				3FDDF1FB2358224A0078D34E /* US_President_L_42.jpg in Resources */,
+				3FDDF1F62358224A0078D34E /* US_President_L_33.jpg in Resources */,
 				3FDDF0C62357AD790078D34E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +502,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDDF15C2357E8470078D34E /* PresidentList.swift in Sources */,
+				3FDDF1C12358186B0078D34E /* CircleImage.swift in Sources */,
+				3FDDF0F42357CFBD0078D34E /* President.swift in Sources */,
+				3FDDF0F82357CFF00078D34E /* Data.swift in Sources */,
+				3FDDF1602357E9E90078D34E /* PresidentDetail.swift in Sources */,
 				3FDDF0C02357AD6A0078D34E /* AppDelegate.swift in Sources */,
+				3FDDF0F62357CFE50078D34E /* PresidentRow.swift in Sources */,
 				3FDDF0C22357AD6A0078D34E /* SceneDelegate.swift in Sources */,
-				3FDDF0C42357AD6A0078D34E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
