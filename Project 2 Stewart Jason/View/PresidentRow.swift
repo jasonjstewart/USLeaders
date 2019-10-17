@@ -12,12 +12,22 @@ struct PresidentRow: View {
     var president: President
 
     var body: some View {
-        HStack {
-          president.image
+        VStack( alignment: .leading){
+            HStack{
+                president.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(president.full_name)
-            Spacer()
+                VStack( alignment: .leading){
+                    HStack {
+                      
+                        Text(president.full_name).bold()
+                        Spacer()
+                    }
+                    HStack {
+                        Text(president.party).font(.subheadline)
+                    }
+                }
+            }
         }
     }
 }

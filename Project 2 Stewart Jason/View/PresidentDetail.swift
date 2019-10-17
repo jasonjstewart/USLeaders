@@ -19,37 +19,50 @@ import SwiftUI
 
 struct PresidentDetail: View {
     var president: President
+    private struct Wikipedia {
+        static let url = "https://en.wikipedia.org/wiki/Ulysses_S._Grant".url
+    }
+    @State var ShowWebView = false
 
     var body: some View {
-        VStack {
-            CircleImage(image: president.image)
-                .offset(y: 0)
-                .padding(.bottom, 0)
+        NavigationView{
+            VStack {
+                CircleImage(image: president.image)
+                    .offset(y: 0)
+                    .padding(.bottom, 0)
 
-            VStack(alignment: .leading) {
-                Text(president.full_name)
-                    .font(.title)
-                    Text("Political Party:").bold().font(.subheadline)
-                    Text("\(president.party)")
-                        .font(.subheadline)
-                    Text("Life Span:").bold().font(.subheadline)
-                    Text("\(president.birth_year)"+" to "+"\(president.death_year ?? 2019)")
-                        //THIS NEEDS TO BE CHANGED TO A STRING THAT SAYS PRESENT
-                        .font(.subheadline)
-                    Text("Year Took Office:").bold().font(.subheadline)
-                Text("\(president.took_office)"+" to "+"\(president.left_office ?? "Present")")
-                        .font(.subheadline)
-//                    Text("\(president.left_office)")
-//                        .font(.subheadline)
-                    Text("Biography:").bold().font(.subheadline)
-                    Text(president.biography)
-                        .font(.subheadline)
+                VStack(alignment: .leading) {
+                    Text(president.full_name)
+                        .font(.title)
+                        Text("Political Party:").bold().font(.subheadline)
+                        Text("\(president.party)")
+                            .font(.subheadline)
+                        Text("Life Span:").bold().font(.subheadline)
+                        Text("\(president.birth_year)"+" to "+"\(president.death_year ?? 2019)")
+                            //THIS NEEDS TO BE CHANGED TO A STRING THAT SAYS PRESENT
+                            .font(.subheadline)
+                        Text("Year Took Office:").bold().font(.subheadline)
+                    Text("\(president.took_office)"+" to "+"\(president.left_office ?? "Present")")
+                            .font(.subheadline)
+                        Text("Biography:").bold().font(.subheadline)
+                        Text(president.biography)
+                            .font(.subheadline)
+                }
+                .padding()
+
+                Spacer()
             }
-            .padding()
-
-            Spacer()
+            .navigationBarTitle(Text(president.full_name), displayMode: .inline)
+            .navigationBarItems(trailing: Button(action: {self.ShowWebView = true}){
+                Text("Wiki")
+            })
         }
-        .navigationBarTitle(Text(president.full_name), displayMode: .inline)
+        .sheet(isPresented: self.$ShowWebView){
+            WebView(request: URLRequest(url: Wikipedia.url))
+//            {
+//                self.ShowWebView = false
+//            }
+        }
     }
 }
 
