@@ -1,5 +1,5 @@
 //
-//  PresidentDetail.swift
+//  GovernorDetail.swift
 //  Project 2 Stewart Jason
 //
 //  Created by Student on 10/16/19.
@@ -9,40 +9,40 @@
 
 import SwiftUI
 
-struct PresidentDetail: View {
-    var president: President
+struct GovernorDetail: View {
+    var governor: Governor
 
     @State var ShowWebView = false
 
     var body: some View {
         NavigationView{
             VStack {
-                CircleImage(image: president.image)
+                CircleImage(image: governor.image)
                     .offset(y: 25)
                     .padding(.bottom, 25)
 
                 VStack(alignment: .leading) {
-                    Text(president.full_name)
+                    Text(governor.name)
                         .font(.title)
                         Text("Political Party:").bold().font(.subheadline)
-                        Text("\(president.party)")
+                        Text("\(governor.party)")
                             .font(.subheadline)
                         Text("Life Span:").bold().font(.subheadline)
-                        Text("\(president.birth_year)"+" to "+"\(president.death_year ?? 2019)")
+                        Text("\(governor.date_of_birth)"+" to Present")
                             //THIS NEEDS TO BE CHANGED TO A STRING THAT SAYS PRESENT
                             .font(.subheadline)
                         Text("Year Took Office:").bold().font(.subheadline)
-                    Text("\(president.took_office) to \(president.left_office ?? "Present")")
+                    Text("\(governor.entered_office) to \(governor.term_end)")
                             .font(.subheadline)
                         Text("Biography:").bold().font(.subheadline)
-                        Text(president.biography)
+                        Text(governor.biography)
                             .font(.subheadline)
                 }
                 .padding()
 
                 Spacer()
             }
-            .navigationBarTitle(Text(president.full_name), displayMode: .inline)
+            .navigationBarTitle(Text(governor.name), displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {self.ShowWebView = true}){
                 Text("Wiki")
             })
@@ -50,11 +50,11 @@ struct PresidentDetail: View {
         .sheet(isPresented: self.$ShowWebView){
             NavigationView {
                     
-                WebView(request: URLRequest(url: self.president.website.url))
+                WebView(request: URLRequest(url: self.governor.website.url))
 //                    {
 //                        self.ShowWebView = false
 //                    }
-                .navigationBarTitle("Title")
+                    .navigationBarTitle("\(self.governor.name)")
 //                .navigationBarItems(trailing: Button(action: {}))
                 //self.onDismiss()
             }
@@ -63,9 +63,9 @@ struct PresidentDetail: View {
     }
 }
 
-struct PresidentDetail_Preview: PreviewProvider {
+struct GovernorDetail_Preview: PreviewProvider {
     static var previews: some View {
-        PresidentDetail(president: presidentData[35])
+        GovernorDetail(governor: governorData[50])
     }
 }
 

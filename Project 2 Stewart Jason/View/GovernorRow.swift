@@ -1,30 +1,30 @@
 //
-//  LeaderRow.swift
+//  SenatorRow.swift
 //  Project 2 Stewart Jason
 //
-//  Created by Student on 10/16/19.
+//  Created by Student on 10/17/19.
 //  Copyright © 2019 Student. All rights reserved.
 //
 
 import SwiftUI
 
-struct PresidentRow: View {
-    var president: President
+struct GovernorRow: View {
+    var governor: Governor
 
     var body: some View {
         //VStack( alignment: .leading){
             HStack{
-                president.image
+                governor.image
                 .resizable()
                 .frame(width: 50, height: 50)
                 VStack( alignment: .leading){
                     HStack {
                       
-                        Text(president.full_name).bold()
+                        Text(governor.name).bold()
                         Spacer()
                     }
                     HStack {
-                        Text(president.party).font(.subheadline)
+                        Text(governor.state_name).font(.subheadline)
                     }
                 }
             }
@@ -32,12 +32,11 @@ struct PresidentRow: View {
     }
 }
 
-struct PresidentRow_Previews: PreviewProvider {
+struct GovernorRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             //PresidentRow(president: presidentData[0])
-            PresidentRow(president: presidentData[0])
-            PresidentRow(president: presidentData[1])
+            GovernorRow(governor: governorData[19])
 //            PresidentRow(president: presidentData[2])
 //            PresidentRow(president: presidentData[42])
         }

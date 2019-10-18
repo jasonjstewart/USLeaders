@@ -19,6 +19,8 @@ struct President: Hashable, Codable, Identifiable {
     var party: String
     var image_name: String
     var biography: String
+    var website: String
+//    var url = "https://en.wikipedia.org/"+full_name.replacingOccurrences(of: " ", with: "_")
 
 }
 

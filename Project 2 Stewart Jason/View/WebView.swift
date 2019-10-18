@@ -11,6 +11,7 @@ import WebKit
   
 struct WebView : UIViewRepresentable {
       
+    //var onDismiss: () -> ()
     let request: URLRequest
       
     func makeUIView(context: Context) -> WKWebView  {
@@ -21,6 +22,11 @@ struct WebView : UIViewRepresentable {
         uiView.load(request)
     }
       
+//    var body: some View{
+//        NavigationView{
+//            .NavigationBarItems(trailing: Button(action: {self.onDismiss()}))
+//        }
+//    }
 }
 
 struct WebView_Previews : PreviewProvider {
