@@ -9,6 +9,7 @@
 import SwiftUI
 import WebKit
   
+//VIEW to display a website on a view
 struct WebView : UIViewRepresentable {
       
     //var onDismiss: () -> ()
@@ -21,14 +22,9 @@ struct WebView : UIViewRepresentable {
     func updateUIView(_ uiView: WKWebView, context: Context) {
         uiView.load(request)
     }
-      
-//    var body: some View{
-//        NavigationView{
-//            .NavigationBarItems(trailing: Button(action: {self.onDismiss()}))
-//        }
-//    }
 }
 
+//Preview
 struct WebView_Previews : PreviewProvider {
     static var previews: some View {
         //WebView(request: URLRequest(url: URL(string: "https://www.byu.edu")!))

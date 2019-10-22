@@ -29,3 +29,5 @@ extension President {
         ImageStore.shared.image(name: image_name)
     }
 }
+
+

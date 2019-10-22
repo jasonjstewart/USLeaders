@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+//Row for all of the governors, include picture and information
 struct GovernorRow: View {
     var governor: Governor
 
@@ -25,6 +26,9 @@ struct GovernorRow: View {
                     }
                     HStack {
                         Text(governor.state_name).font(.subheadline)
+                        Text(governor.party.capitalized)
+                                    .font(.footnote)
+                                    .foregroundColor(.gray)
                     }
                 }
             }

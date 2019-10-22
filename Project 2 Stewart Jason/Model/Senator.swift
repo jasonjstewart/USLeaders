@@ -2,14 +2,14 @@
 //  Senator.swift
 //  Project 2 Stewart Jason
 //
-//  Created by Student on 10/17/19.
+//  Created by Student on 10/18/19.
 //  Copyright © 2019 Student. All rights reserved.
 //
 
 import Foundation
 import SwiftUI
 import CoreLocation
-​
+
 struct Senator: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
@@ -21,11 +21,11 @@ struct Senator: Hashable, Codable, Identifiable {
     var party: String
     var biography: String
     var photo_url: String
-}
-​
-extension Senator {
-   var image: Image {
-       ImageStore.shared.image(name: photo_url)
-   }
+    var website: String
 }
 
+extension Senator {
+    var image: Image {
+        ImageStore.shared.image(name: photo_url)
+    }
+}

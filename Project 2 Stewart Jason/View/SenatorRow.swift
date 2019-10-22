@@ -2,26 +2,27 @@
 //  SenatorRow.swift
 //  Project 2 Stewart Jason
 //
-//  Created by Student on 10/17/19.
+//  Created by Student on 10/18/19.
 //  Copyright © 2019 Student. All rights reserved.
 //
 
 import SwiftUI
 
+//Row for all of the senators, include picture and information
 struct SenatorRow: View {
     var senator: Senator
     
-    var body: some View {
-        HStack {
+    var body: some View{
+        HStack{
             senator.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            VStack (alignment: .leading) {
+            VStack(alignment: .leading){
                 Text(senator.name)
                     .font(.headline)
-                HStack {
+                HStack{
                     Text(senator.state_name)
-                    .font(.subheadline)
+                        .font(.subheadline)
                     Text(senator.party.capitalized)
                         .font(.footnote)
                         .foregroundColor(.gray)
@@ -33,13 +34,8 @@ struct SenatorRow: View {
 
 struct SenatorRow_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
+        Group{
             SenatorRow(senator: senatorData[0])
-            SenatorRow(senator: senatorData[14])
-            SenatorRow(senator: senatorData[22])
-            SenatorRow(senator: senatorData[37])
-            SenatorRow(senator: senatorData[99])
         }
-        .previewLayout(.fixed(width: 300, height: 70))
     }
 }

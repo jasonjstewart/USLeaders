@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+//Row for all of the presidents, include picture and information
 struct PresidentRow: View {
     var president: President
 

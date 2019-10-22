@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F450461235A3DE30061280C /* Senator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F450460235A3DE30061280C /* Senator.swift */; };
+		3F450463235A3F500061280C /* SenatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F450462235A3F500061280C /* SenatorRow.swift */; };
+		3F450465235A41150061280C /* SenatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F450464235A41150061280C /* SenatorDetail.swift */; };
 		3FDDF0C02357AD6A0078D34E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0BF2357AD6A0078D34E /* AppDelegate.swift */; };
 		3FDDF0C22357AD6A0078D34E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0C12357AD6A0078D34E /* SceneDelegate.swift */; };
 		3FDDF0C62357AD790078D34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF0C52357AD790078D34E /* Assets.xcassets */; };
@@ -19,7 +22,7 @@
 		3FDDF0F82357CFF00078D34E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF0F72357CFF00078D34E /* Data.swift */; };
 		3FDDF0FA2357D09A0078D34E /* presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF0F92357D09A0078D34E /* presidents.json */; };
 		3FDDF0FC2357DAC50078D34E /* 1-washington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF0FB2357DAC50078D34E /* 1-washington.jpg */; };
-		3FDDF15C2357E8470078D34E /* PresidentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF15B2357E8470078D34E /* PresidentList.swift */; };
+		3FDDF15C2357E8470078D34E /* LeaderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF15B2357E8470078D34E /* LeaderList.swift */; };
 		3FDDF1602357E9E90078D34E /* PresidentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF15F2357E9E90078D34E /* PresidentDetail.swift */; };
 		3FDDF1C12358186B0078D34E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF1C02358186B0078D34E /* CircleImage.swift */; };
 		3FDDF21D23583C130078D34E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF21C23583C130078D34E /* WebView.swift */; };
@@ -144,9 +147,6 @@
 		3FDDF393235937A20078D34E /* US_President_L_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF366235937A10078D34E /* US_President_L_6.jpg */; };
 		3FDDF394235937A20078D34E /* US_President_L_24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF367235937A20078D34E /* US_President_L_24.jpg */; };
 		3FDDF395235937A20078D34E /* US_President_L_32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF368235937A20078D34E /* US_President_L_32.jpg */; };
-		3FDDF397235969960078D34E /* Senator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF396235969960078D34E /* Senator.swift */; };
-		3FDDF399235969C20078D34E /* SenatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF398235969C20078D34E /* SenatorRow.swift */; };
-		3FDDF39B235969EE0078D34E /* SenatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDF39A235969EE0078D34E /* SenatorDetail.swift */; };
 		3FDDF39D23596A340078D34E /* senator.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF39C23596A340078D34E /* senator.json */; };
 		3FDDF40423596A5B0078D34E /* id-mike-crapo-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF39E23596A520078D34E /* id-mike-crapo-republican.jpg */; };
 		3FDDF40523596A5B0078D34E /* ks-pat-roberts-republican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDF39F23596A520078D34E /* ks-pat-roberts-republican.jpg */; };
@@ -270,7 +270,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3FDDF0BC2357AD6A0078D34E /* Project 2 Stewart Jason.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 2 Stewart Jason.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F450460235A3DE30061280C /* Senator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senator.swift; sourceTree = "<group>"; };
+		3F450462235A3F500061280C /* SenatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorRow.swift; sourceTree = "<group>"; };
+		3F450464235A41150061280C /* SenatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorDetail.swift; sourceTree = "<group>"; };
+		3FDDF0BC2357AD6A0078D34E /* U.S. Leaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "U.S. Leaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDDF0BF2357AD6A0078D34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDDF0C12357AD6A0078D34E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3FDDF0C52357AD790078D34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -288,7 +291,7 @@
 		3FDDF0F72357CFF00078D34E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		3FDDF0F92357D09A0078D34E /* presidents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = presidents.json; path = ../../../../../Downloads/presidents.json; sourceTree = "<group>"; };
 		3FDDF0FB2357DAC50078D34E /* 1-washington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1-washington.jpg"; path = "../../../../../Downloads/1-washington.jpg"; sourceTree = "<group>"; };
-		3FDDF15B2357E8470078D34E /* PresidentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentList.swift; sourceTree = "<group>"; };
+		3FDDF15B2357E8470078D34E /* LeaderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderList.swift; sourceTree = "<group>"; };
 		3FDDF15F2357E9E90078D34E /* PresidentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentDetail.swift; sourceTree = "<group>"; };
 		3FDDF1C02358186B0078D34E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3FDDF21C23583C130078D34E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -413,9 +416,6 @@
 		3FDDF366235937A10078D34E /* US_President_L_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_6.jpg; path = "../../../../../Downloads/large president pictures 2/US_President_L_6.jpg"; sourceTree = "<group>"; };
 		3FDDF367235937A20078D34E /* US_President_L_24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_24.jpg; path = "../../../../../Downloads/large president pictures 2/US_President_L_24.jpg"; sourceTree = "<group>"; };
 		3FDDF368235937A20078D34E /* US_President_L_32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = US_President_L_32.jpg; path = "../../../../../Downloads/large president pictures 2/US_President_L_32.jpg"; sourceTree = "<group>"; };
-		3FDDF396235969960078D34E /* Senator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senator.swift; sourceTree = "<group>"; };
-		3FDDF398235969C20078D34E /* SenatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorRow.swift; sourceTree = "<group>"; };
-		3FDDF39A235969EE0078D34E /* SenatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorDetail.swift; sourceTree = "<group>"; };
 		3FDDF39C23596A340078D34E /* senator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = senator.json; path = ../../../../../Downloads/senator.json; sourceTree = "<group>"; };
 		3FDDF39E23596A520078D34E /* id-mike-crapo-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "id-mike-crapo-republican.jpg"; path = "../../../../../Downloads/drive-download-20191017T212149Z-001/id-mike-crapo-republican.jpg"; sourceTree = "<group>"; };
 		3FDDF39F23596A520078D34E /* ks-pat-roberts-republican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ks-pat-roberts-republican.jpg"; path = "../../../../../Downloads/drive-download-20191017T212149Z-001/ks-pat-roberts-republican.jpg"; sourceTree = "<group>"; };
@@ -559,7 +559,7 @@
 		3FDDF0BD2357AD6A0078D34E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FDDF0BC2357AD6A0078D34E /* Project 2 Stewart Jason.app */,
+				3FDDF0BC2357AD6A0078D34E /* U.S. Leaders.app */,
 				3FDDF0D22357AD790078D34E /* Project 2 Stewart JasonTests.xctest */,
 				3FDDF0DD2357AD790078D34E /* Project 2 Stewart JasonUITests.xctest */,
 			);
@@ -617,7 +617,7 @@
 				3FDDF24E23590FE00078D34E /* Governor.swift */,
 				3FDDF0F72357CFF00078D34E /* Data.swift */,
 				3FDDF1C02358186B0078D34E /* CircleImage.swift */,
-				3FDDF396235969960078D34E /* Senator.swift */,
+				3F450460235A3DE30061280C /* Senator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -635,11 +635,11 @@
 				3FDDF250235911040078D34E /* GovernorRow.swift */,
 				3FDDF2E423592F830078D34E /* GovernorDetail.swift */,
 				3FDDF0F52357CFE50078D34E /* PresidentRow.swift */,
-				3FDDF15B2357E8470078D34E /* PresidentList.swift */,
+				3FDDF15B2357E8470078D34E /* LeaderList.swift */,
 				3FDDF15F2357E9E90078D34E /* PresidentDetail.swift */,
 				3FDDF21C23583C130078D34E /* WebView.swift */,
-				3FDDF398235969C20078D34E /* SenatorRow.swift */,
-				3FDDF39A235969EE0078D34E /* SenatorDetail.swift */,
+				3F450462235A3F500061280C /* SenatorRow.swift */,
+				3F450464235A41150061280C /* SenatorDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -890,7 +890,7 @@
 			);
 			name = "Project 2 Stewart Jason";
 			productName = "Project 2 Stewart Jason";
-			productReference = 3FDDF0BC2357AD6A0078D34E /* Project 2 Stewart Jason.app */;
+			productReference = 3FDDF0BC2357AD6A0078D34E /* U.S. Leaders.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3FDDF0D12357AD790078D34E /* Project 2 Stewart JasonTests */ = {
@@ -1226,7 +1226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FDDF15C2357E8470078D34E /* PresidentList.swift in Sources */,
+				3FDDF15C2357E8470078D34E /* LeaderList.swift in Sources */,
 				3FDDF1C12358186B0078D34E /* CircleImage.swift in Sources */,
 				3FDDF0F42357CFBD0078D34E /* President.swift in Sources */,
 				3FDDF0F82357CFF00078D34E /* Data.swift in Sources */,
@@ -1236,10 +1236,10 @@
 				3FDDF251235911040078D34E /* GovernorRow.swift in Sources */,
 				3FDDF21F235842EA0078D34E /* string+url.swift in Sources */,
 				3FDDF2E523592F830078D34E /* GovernorDetail.swift in Sources */,
-				3FDDF399235969C20078D34E /* SenatorRow.swift in Sources */,
-				3FDDF397235969960078D34E /* Senator.swift in Sources */,
+				3F450463235A3F500061280C /* SenatorRow.swift in Sources */,
+				3F450461235A3DE30061280C /* Senator.swift in Sources */,
 				3FDDF21D23583C130078D34E /* WebView.swift in Sources */,
-				3FDDF39B235969EE0078D34E /* SenatorDetail.swift in Sources */,
+				3F450465235A41150061280C /* SenatorDetail.swift in Sources */,
 				3FDDF0F62357CFE50078D34E /* PresidentRow.swift in Sources */,
 				3FDDF0C22357AD6A0078D34E /* SceneDelegate.swift in Sources */,
 			);
@@ -1416,7 +1416,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jjstewart50.Project-2-Stewart-Jason";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "U.S. Leaders";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1436,7 +1436,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jjstewart50.Project-2-Stewart-Jason";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "U.S. Leaders";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

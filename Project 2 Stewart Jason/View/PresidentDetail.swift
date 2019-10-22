@@ -11,54 +11,54 @@ import SwiftUI
 
 struct PresidentDetail: View {
     var president: President
-
+    
+//Used to show and hide the modal popover of the wiki page
     @State var ShowWebView = false
 
+        //The body of the view which include personal information
     var body: some View {
         NavigationView{
             VStack {
                 CircleImage(image: president.image)
                     .offset(y: 25)
                     .padding(.bottom, 25)
-
+                List{
                 VStack(alignment: .leading) {
                     Text(president.full_name)
                         .font(.title)
                         Text("Political Party:").bold().font(.subheadline)
                         Text("\(president.party)")
                             .font(.subheadline)
-                        Text("Life Span:").bold().font(.subheadline)
-                        Text("\(president.birth_year)"+" to "+"\(president.death_year ?? 2019)")
                             //THIS NEEDS TO BE CHANGED TO A STRING THAT SAYS PRESENT
                             .font(.subheadline)
-                        Text("Year Took Office:").bold().font(.subheadline)
+                        Text("Term:").bold().font(.subheadline)
                     Text("\(president.took_office) to \(president.left_office ?? "Present")")
                             .font(.subheadline)
                         Text("Biography:").bold().font(.subheadline)
+
                         Text(president.biography)
                             .font(.subheadline)
+                    }
                 }
                 .padding()
-
-                Spacer()
             }
+        }
             .navigationBarTitle(Text(president.full_name), displayMode: .inline)
             .navigationBarItems(trailing: Button(action: {self.ShowWebView = true}){
-                Text("Wiki")
+                 Image(systemName: "globe").imageScale(.large)
             })
-        }
         .sheet(isPresented: self.$ShowWebView){
-            NavigationView {
-                    
-                WebView(request: URLRequest(url: self.president.website.url))
-//                    {
-//                        self.ShowWebView = false
-//                    }
-                .navigationBarTitle("Title")
-//                .navigationBarItems(trailing: Button(action: {}))
-                //self.onDismiss()
-            }
-
+                 VStack(alignment: .leading){
+                  Button(action: {
+                      self.ShowWebView = false
+                  })
+                  {
+                      Text("Done")
+                          .fontWeight(.bold)
+                  }.padding(.leading)
+                      .padding(.top)
+                      WebView(request: URLRequest(url: self.president.website.url))
+              }
         }
     }
 }

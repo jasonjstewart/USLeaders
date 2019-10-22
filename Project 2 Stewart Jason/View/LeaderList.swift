@@ -8,7 +8,8 @@
 
 import SwiftUI
 
-struct PresidentList: View {
+//Content VIEW 
+struct LeaderList: View {
     
     var body: some View {
         TabView{
@@ -17,7 +18,7 @@ struct PresidentList: View {
                     Image(systemName: "list.bullet")
                     Text("Presidents")
             }
-            PresidentListView()
+            SenatorListView()
                 .tabItem{
                     Image(systemName: "list.bullet")
                     Text("Senators")
@@ -32,15 +33,18 @@ struct PresidentList: View {
 
 }
 
-struct PresidentList_Previews: PreviewProvider {
+//PREVIEW
+struct LeaderList_Previews: PreviewProvider {
     static var previews: some View {
          ForEach(["iPhone XS Max"], id: \.self) { deviceName in
-             PresidentList()
+             LeaderList()
                  .previewDevice(PreviewDevice(rawValue: deviceName))
          }
     }
 }
 
+
+//TAB VIEWS
 struct PresidentListView: View {
     var body: some View {
         NavigationView{
@@ -50,6 +54,19 @@ struct PresidentListView: View {
                 }
             }
             .navigationBarTitle(Text("Presidents"))
+        }
+    }
+}
+
+struct SenatorListView: View {
+    var body: some View {
+        NavigationView{
+            List(senatorData) { senator in
+                NavigationLink(destination: SenatorDetail(senator: senator)){
+                    SenatorRow(senator: senator)
+                }
+            }
+            .navigationBarTitle(Text("Senators"))
         }
     }
 }
